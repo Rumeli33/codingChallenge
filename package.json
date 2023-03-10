@@ -5,5 +5,32 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "readline": "^1.3.0"
-  }
+  },
+  "name": "codingchallenge",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rumeli33/codingChallenge.git"
+  },
+  "keywords": [
+    "Artist",
+    "Search",
+    "Rest",
+    "Api",
+    "write",
+    "to",
+    "csv"
+  ],
+  "author": "Rumeli Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rumeli33/codingChallenge/issues"
+  },
+  "homepage": "https://github.com/Rumeli33/codingChallenge#readme",
+  "description": ""
 }
