@@ -2,7 +2,9 @@
 
 
 <h1 align="center">Artist Search</h1>
-<h3 align="center">A simple NodeJS Application to search for artists from a Last.fm API endpoint based on user inputs and process the data to a csv file</h3>
+<h3 align="left">A simple NodeJS Application to search for artists from a Last.fm API endpoint based on user inputs and process the data to a csv file</h3>
+
+- Github Repo:  https://github.com/Rumeli33/codingChallenge
 
 ## Authors
 
@@ -46,7 +48,7 @@ To run this project, you will need to add the following environment variables to
 
 `LAST_FM_URL` = https://ws.audioscrobbler.com/2.0/?method=artist.search
 
-
+You are advised to get your own key from Last.fm by registering yourself.
 
 
 
@@ -64,6 +66,12 @@ Go to the project directory
 
 ```bash
  $ cd codingChallenge
+```
+
+To open in Visual Studio
+
+```bash
+ $ code .
 ```
 
 Install dependencies
@@ -88,5 +96,16 @@ Enter Artist name
 ```bash
 Enter the name of the artist (also the filename for CSV):
 ```
+
+You can find sample files created inside the folder structure:
+For example: Searching for artist name "harry", retrieves the results from the API and saves them into the csv file harry.csv.
+
+
+## Note: 
+
+If no data is returned by the API, a random artist is selected from the JSON dictionary "artists.json", which can be found under "./data/artists.json".
+
+An example can be found in the file : hjdljdflsxcs.csv
+ where the file name is a random keypress generated word, which returns nothing from the API.
 
 
